@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-nov-2019, 22:34:09
+    Author     : Alvaro Martínez
+*/
+
+
+
+
+
+h6{
+	text-align:center;
+	font-family: 'fjalla one', sans-serif;
+	font-size:30px;
+    
+    
+   
+}
+
+table{
+    position:absolute;
+    top:600px;
+    
+}
+
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+@media (orientation:portrait ){
+    
+    
+table {
+    position: absolute;
+    top:80%;
+    left:10%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 8%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
